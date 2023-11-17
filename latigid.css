@@ -1,0 +1,772 @@
+/*!
+  * LATIGID Icon Library v1.0
+  *
+  * Copyright (c) 2023 BCL.SOCIAL
+  * Licensed under the MIT license
+  * Icons distributed by CC BY-SA 4.0
+  *
+ */
+
+@font-face {
+  font-family: 'latigid';
+  src:  url('fonts/latigid.eot?5r3s9e');
+  src:  url('fonts/latigid.eot?5r3s9e#iefix') format('embedded-opentype'),
+    url('fonts/latigid.ttf?5r3s9e') format('truetype'),
+    url('fonts/latigid.woff?5r3s9e') format('woff'),
+    url('fonts/latigid.svg?5r3s9e#latigid') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.ico {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'latigid' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+  [class^="bcl-"],
+  [class*=" bcl-"] {
+      display: inline-block;
+      width: 1em;
+      height: 1em;
+      stroke-width: 0;
+      stroke: currentColor;
+      fill: currentColor;
+      }
+
+/* SCALABILITY */
+  
+.bcl-lg {
+  font-size: 1.25em;
+  line-height: 0.05em;
+  vertical-align: -0.075em;
+}
+
+.bcl-1x {
+  font-size: 1em;
+}
+
+.bcl-2x {
+  font-size: 2em;
+}
+
+.bcl-3x {
+  font-size: 3em;
+}
+
+.bcl-4x {
+  font-size: 4em;
+}
+
+.bcl-5x {
+  font-size: 5em;
+}
+
+.bcl-6x {
+  font-size: 6em;
+}
+
+.bcl-7x {
+  font-size: 7em;
+}
+
+.bcl-8x {
+  font-size: 8em;
+}
+
+.bcl-9x {
+  font-size: 9em;
+}
+
+.bcl-10x {
+  font-size: 10em;
+}
+
+.bcl-2xs {
+  font-size: 0.625em;
+  line-height: 0.1em;
+  vertical-align: 0.225em;
+  }
+  
+.bcl-xs {
+  font-size: 0.75em;
+  line-height: 0.08333em;
+  vertical-align: 0.125em;
+  }
+  
+.bcl-sm {
+  font-size: 0.875em;
+  line-height: 0.07143em;
+  vertical-align: 0.05357em;
+  }
+
+.bcl-xl {
+  font-size: 1.5em;
+  line-height: 0.04167em;
+  vertical-align: -0.125em;
+  }
+
+.bcl-2xl {
+  font-size: 2em;
+  line-height: 0.03125em;
+  vertical-align: -0.1875em;
+  }
+
+.bcl-fw {
+  text-align: center;
+  width: 1.25em;
+  }
+
+/* LISTS, BORDER AND STACK */
+
+.bcl-ul {
+  padding-left: 0;
+  margin-left: 2.14285714em;
+  list-style-type: none;
+  }
+
+.bcl-ul > li {
+  position: relative;
+}
+
+.bcl-li {
+  position: absolute;
+  left: -2.14285714em;
+  width: 2.14285714em;
+  top: 0.14285714em;
+  text-align: center;
+}
+
+.bcl-li.bcl-lg {
+  left: -1.85714286em;
+}
+
+.bcl-border {
+  padding: .2em .25em .15em;
+  border: solid 0.07em #eaeaea;
+  border-radius: .1em;
+}
+
+.bcl-border-circle {
+    padding: .25em;
+    border: .07em solid rgba(0,0,0,.1);
+    border-radius: 50%;
+}
+  
+.bcl-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+
+.bcl-stack-1x,
+.bcl-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.bcl-stack-1x {
+  line-height: inherit;
+}
+
+.bcl-stack-2x {
+  font-size: 2em;
+}
+
+.bcl-pull-left {
+  float: left;
+  margin-right: .3em!important;
+}
+
+.bcl-pull-right {
+  float: right;
+  margin-left: .3em!important;
+}
+
+/* ANIMATIONS */
+
+.bcl-spin {
+  -webkit-animation: bcl-spin 2s infinite linear;
+  -moz-animation: bcl-spin 2s infinite linear;
+  -ms-animation: bcl-spin 2s infinite linear;
+  -o-animation: bcl-spin 2s infinite linear;
+  animation: bcl-spin 2s infinite linear;
+}
+
+@-webkit-keyframes bcl-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+  }
+}
+
+@keyframes bcl-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+
+.bcl-flip-horizontal {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+.bcl-flip-vertical {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+
+.bcl-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.bcl-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.bcl-rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+.bcl-fade-up {
+    -webkit-animation: fade-up 1.5s infinite linear;
+            animation: fade-up 1.5s infinite linear;
+}
+.bcl-fade-up-hover:hover {
+    -webkit-animation: fade-up 1.5s infinite linear;
+            animation: fade-up 1.5s infinite linear;
+}
+.bcl-fade-down {
+    -webkit-animation: fade-down 1.5s infinite linear;
+            animation: fade-down 1.5s infinite linear;
+}
+.bcl-fade-down-hover:hover {
+    -webkit-animation: fade-down 1.5s infinite linear;
+            animation: fade-down 1.5s infinite linear;
+}
+.bcl-fade-left {
+    -webkit-animation: fade-left 1.5s infinite linear;
+            animation: fade-left 1.5s infinite linear;
+}
+.bcl-fade-left-hover:hover {
+    -webkit-animation: fade-left 1.5s infinite linear;
+            animation: fade-left 1.5s infinite linear;
+}
+.bcl-fade-right {
+    -webkit-animation: fade-right 1.5s infinite linear;
+            animation: fade-right 1.5s infinite linear;
+}
+.bcl-fade-right-hover:hover {
+    -webkit-animation: fade-right 1.5s infinite linear;
+            animation: fade-right 1.5s infinite linear;
+}
+
+/* VISUAL EFFECTS */
+
+.bcl-opacity {
+  filter: opacity(30%);
+}
+.bcl-blur {
+  filter: blur(2px);
+}
+.bcl-brightness {
+  filter: brightness(0.30);
+}
+.bcl-contrast {
+  filter: contrast(180%);
+}
+.bcl-grayscale {
+  filter: invert(51%) sepia(6%) saturate(15%) hue-rotate(14deg) brightness(98%) contrast(88%);
+}
+.bcl-huerotate {
+  filter: hue-rotate(180deg);
+}
+.bcl-invert {
+  filter: invert(100%);
+}
+.bcl-saturate {
+  filter: saturate(7);
+}
+.bcl-sepia {
+  filter: sepia(100%);
+}
+.bcl-shadow {filter: drop-shadow(4px 4px 5px #A21CAF);}
+
+/* COLORS */
+
+.bcl-purple {
+  color: #A21CAF;
+}
+
+.bcl-dpurple {
+  color: #86198F;
+}
+
+.bcl-neonpurple {
+  color: #C724B1;
+}
+
+.bcl-violet {
+  color: #8F00FF;
+}
+
+.bcl-lime {
+  color: #04FF86;
+}
+
+.bcl-green {
+  color: #228B22;
+}
+
+.bcl-green2 {
+  color: #4DC71F;
+}
+
+.bcl-neongreen {
+  color: #0FFF50;
+}
+
+.bcl-chartreuse {
+  color: #7fff00;
+}
+
+.bcl-teal {
+  color: #008080;
+}
+
+.bcl-blue {
+  color: #4A69BD;
+}
+
+.bcl-blue2 {
+  color: #10A8D6;
+}
+
+.bcl-neonblue {
+  color: #1F51FF;
+}
+
+.bcl-aqua {
+  color: #00FFFF;
+}
+
+.bcl-pink {
+  color: #ff0080;
+}
+
+.bcl-lilac {
+  color: #AA98A9;
+}
+
+.bcl-mustard {
+  color: #D7C811;
+}
+
+.bcl-yellow {
+  color: #FFEA00;
+}
+
+.bcl-neonyellow {
+  color: #DFFF00;
+}
+
+.bcl-orange {
+  color: #F28C28;
+}
+
+.bcl-red {
+  color: #C41E3A;
+}
+
+.bcl-neonred {
+  color: #FF3131;
+}
+
+.bcl-cherry {
+  color: #D2042D;
+}
+
+.bcl-marsala {
+  color: #986868;
+}
+
+.bcl-wine {
+  color: #722F37;
+}
+
+.bcl-amora {
+  color: #972F65;
+}
+
+.bcl-gray {
+  color: #E6E6E6;
+}
+
+.bcl-white {
+  color: #F1F1F1;
+}
+
+.bcl-black {
+  color: #262626;
+}
+
+/* ICONS */
+
+.bitcoin:before {
+  content: "\e900";
+}
+.ethereum:before {
+  content: "\e901";
+}
+.bnb:before {
+  content: "\e902";
+}
+.solana:before {
+  content: "\e903";
+}
+.polygon:before {
+  content: "\e904";
+}
+.tether:before {
+  content: "\e905";
+}
+.polkadot:before {
+  content: "\e906";
+}
+.xrp:before {
+  content: "\e907";
+}
+.near:before {
+  content: "\e908";
+}
+.nft:before {
+  content: "\e909";
+}
+.opensea:before {
+  content: "\e90a";
+}
+.opensea-circle:before {
+  content: "\e90b";
+}
+.tezos:before {
+  content: "\e90c";
+}
+.bayc:before {
+  content: "\e90d";
+}
+.uniswap:before {
+  content: "\e90e";
+}
+.metamask:before {
+  content: "\e90f";
+}
+.thndr:before {
+  content: "\e910";
+}
+.backpack:before {
+  content: "\e911";
+}
+.binance:before {
+  content: "\e912";
+}
+.binance-logo:before {
+  content: "\e913";
+}
+.bolt:before {
+  content: "\e914";
+}
+.zap:before {
+  content: "\e915";
+}
+.zap-circle:before {
+  content: "\e916";
+}
+.verified2:before {
+  content: "\e917";
+}
+.verified:before {
+  content: "\e918";
+}
+.wallet:before {
+  content: "\e919";
+}
+.nostr:before {
+  content: "\e91a";
+}
+.nostrlogo:before {
+  content: "\e91b";
+}
+.nostrice:before {
+  content: "\e91c";
+}
+.iconostr:before {
+  content: "\e91d";
+}
+.alby:before {
+  content: "\e91e";
+}
+.zeus:before {
+  content: "\e91f";
+}
+.amethyst:before {
+  content: "\e920";
+}
+.iris:before {
+  content: "\e921";
+}
+.coracle:before {
+  content: "\e922";
+}
+.plebstr:before {
+  content: "\e923";
+}
+.plebstr2:before {
+  content: "\e924";
+}
+.plebstrlogo:before {
+  content: "\e925";
+}
+.nostrband:before {
+  content: "\e926";
+}
+.mastodon:before {
+  content: "\e927";
+}
+.twitter:before {
+  content: "\e928";
+}
+.twitterx-square:before {
+  content: "\e929";
+}
+.twitterx:before {
+  content: "\e92a";
+}
+.instagram:before {
+  content: "\e92b";
+}
+.facebook2:before {
+  content: "\e92c";
+}
+.facebook:before {
+  content: "\e92d";
+}
+.discord:before {
+  content: "\e92e";
+}
+.discord2:before {
+  content: "\e92f";
+}
+.tumblr:before {
+  content: "\e930";
+}
+.linkedin:before {
+  content: "\e931";
+}
+.spotify:before {
+  content: "\e932";
+}
+.reddit:before {
+  content: "\e933";
+}
+.lemmy:before {
+  content: "\e934";
+}
+.twitch:before {
+  content: "\e935";
+}
+.youtube:before {
+  content: "\e936";
+}
+.youtube2:before {
+  content: "\e937";
+}
+.tiktok:before {
+  content: "\e938";
+}
+.threads:before {
+  content: "\e939";
+}
+.telegram:before {
+  content: "\e93a";
+}
+.whatsapp3:before {
+  content: "\e93b";
+}
+.whatsapp2:before {
+  content: "\e93c";
+}
+.messenger:before {
+  content: "\e93d";
+}
+.vk:before {
+  content: "\e93e";
+}
+.beer:before {
+  content: "\e93f";
+}
+.coffee:before {
+  content: "\e940";
+}
+.hyperlink:before {
+  content: "\e941";
+}
+.external-link:before {
+  content: "\e942";
+}
+.share:before {
+  content: "\e943";
+}
+.mail:before {
+  content: "\e944";
+}
+.bookmark:before {
+  content: "\e945";
+}
+.tag:before {
+  content: "\e946";
+}
+.globe2:before {
+  content: "\e947";
+}
+.globe:before {
+  content: "\e948";
+}
+.podcast:before {
+  content: "\e949";
+}
+.chart-pie:before {
+  content: "\e94a";
+}
+.location-pin:before {
+  content: "\e94b";
+}
+.sofa:before {
+  content: "\e94c";
+}
+.qr-code:before {
+  content: "\e94d";
+}
+.hashtag:before {
+  content: "\e94e";
+}
+.info:before {
+  content: "\e94f";
+}
+.latigid:before {
+  content: "\e950";
+}
+.wifi:before {
+  content: "\e951";
+}
+.rss:before {
+  content: "\e952";
+}
+.adjust:before {
+  content: "\e953";
+}
+.sun:before {
+  content: "\e954";
+}
+.moon:before {
+  content: "\e955";
+}
+.login:before {
+  content: "\e956";
+}
+.logout:before {
+  content: "\e957";
+}
+.heart:before {
+  content: "\e958";
+}
+.star:before {
+  content: "\e959";
+}
+.calendar:before {
+  content: "\e95a";
+}
+.calendar-events:before {
+  content: "\e95b";
+}
+.newsletter:before {
+  content: "\e95c";
+}
+.community:before {
+  content: "\e95d";
+}
+.stats:before {
+  content: "\e95e";
+}
+.urban:before {
+  content: "\e95f";
+}
+.shapes:before {
+  content: "\e960";
+}
+.pix:before {
+  content: "\e961";
+}
+.cannabis:before {
+  content: "\e962";
+}
+.creativecommons:before {
+  content: "\e963";
+}
+.checkbox:before {
+  content: "\e964";
+}
+.arrow-up:before {
+  content: "\e965";
+}
+.bclsocial:before {
+  content: "\e966";
+}
+.amora-ico:before {
+  content: "\e967";
+}
+.bcreative:before {
+  content: "\e968";
+}
+.latigidlogo:before {
+  content: "\e969";
+}
+.cervejacomnfts:before {
+  content: "\e96a";
+}
+.cervejacode:before {
+  content: "\e96b";
+}
+.bludit:before {
+  content: "\e96c";
+}
